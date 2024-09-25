@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matikkapeli</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+    <div class="game-container">
+        <p>Laske yhteen:</p>
+        <span id="first-number"></span> + <span id="second-number"></span> = 
+        <input type="number" id="user-answer">
+        <button id="submit-answer">Tarkista vastaus</button>
+        <p id="result-message"></p> 
+        <div class="correct-wrong">
+            <p>Oikeita vastauksia: <span id="correct-answers">0</span></p>
+            <p>Vääriä vastauksia: <span id="wrong-answers">0</span></p>
+        </div>
+    </div>
+
+    <script src="js/matikkapeli.js"></script>
+</body>
+</html>
